@@ -97,8 +97,7 @@ Tools that cover several MEP disciplines in one package.
 
 ## Equipment data
 
-| Tool | What it does | License | Platform | Tier | Tested by / date | Details |
-| --- | --- | --- | --- | --- | --- | --- |
+No entries yet. Suggest one by pull request or in [Discussions](../../discussions).
 
 ## CAD/BIM data exchange
 
@@ -213,6 +212,8 @@ Not MEP-specific. Listed because members use them to build and check their own t
 ## UAE/GCC workflow notes
 
 Short notes on local authority workflows. Citations only (document, edition, clause #); no code text.
+
+No notes yet. Suggest one by pull request or in [Discussions](../../discussions).
 
 ## Related lists
 
