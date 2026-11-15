@@ -1,0 +1,9 @@
+# Python 3.12 (python-hvac 0.1.3 requires >=3.11,<3.13). Versions dry-run 15.11.2026.
+psychrolib==2.5.0
+CoolProp==8.0.0
+pyfluids==4.0.0
+fluids==1.3.1
+ezdxf==1.4.5
+iapws==1.5.5
+pint==0.24.4
+python-hvac @ git+https://github.com/TomLXXVI/python-hvac.git@94247560a667905bfbf67e45a58965a58254fce8
