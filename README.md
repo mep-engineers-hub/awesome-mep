@@ -42,17 +42,17 @@ Each section uses the same table. Full details of each entry (worked example, li
 
 | Tool | What it does | License | Platform | Tier | Tested by / date | Details |
 | --- | --- | --- | --- | --- | --- | --- |
-| [psychrometrics/psychrolib](https://github.com/psychrometrics/psychrolib) | Psychrometric property functions (ASHRAE psychrometric equations; edition per repo docs). | MIT | Library (multi-language) | Found | — | — |
+| [psychrometrics/psychrolib](https://github.com/psychrometrics/psychrolib) | Psychrometric property functions (ASHRAE psychrometric equations; edition per repo docs). | MIT | Library (multi-language) | Tried | HusseinRagab / 15.11.2026 | [psychrolib](entries/psychrolib.md) |
 | [CoolProp/CoolProp](https://github.com/CoolProp/CoolProp) | Fluid, refrigerant and humid-air property library. | MIT | Library (C++, wrappers) | Found | — | — |
-| [portyanikhin/pyfluids](https://github.com/portyanikhin/pyfluids) | Python wrapper over CoolProp. | MIT | Python library | Found | — | — |
-| [TomLXXVI/python-hvac](https://github.com/TomLXXVI/python-hvac) | HVAC loads (RTS method) plus air, hydronic and refrigeration helpers. | MIT | Python library | Found | — | — |
+| [portyanikhin/pyfluids](https://github.com/portyanikhin/pyfluids) | Python wrapper over CoolProp. | MIT | Python library | Tried | HusseinRagab / 15.11.2026 | [pyfluids](entries/pyfluids.md) |
+| [TomLXXVI/python-hvac](https://github.com/TomLXXVI/python-hvac) | HVAC loads (RTS method) plus air, hydronic and refrigeration helpers. | MIT | Python library | Tried | HusseinRagab / 15.11.2026 | [python-hvac](entries/python-hvac.md) |
 | [simeononsecurity/Manual-J-Load-Calculator](https://github.com/simeononsecurity/Manual-J-Load-Calculator) | Residential load calculator (Manual J method). | MIT | Web (JavaScript) | Found | — | — |
 
 ## Duct and pipe sizing
 
 | Tool | What it does | License | Platform | Tier | Tested by / date | Details |
 | --- | --- | --- | --- | --- | --- | --- |
-| [CalebBell/fluids](https://github.com/CalebBell/fluids) | Pipe friction, fittings, pumps and pipe schedules. | MIT | Python library | Found | — | — |
+| [CalebBell/fluids](https://github.com/CalebBell/fluids) | Pipe friction, fittings, pumps and pipe schedules. | MIT | Python library | Tried | HusseinRagab / 15.11.2026 | [fluids](entries/fluids.md) |
 | [USEPA/WNTR](https://github.com/USEPA/WNTR) | EPANET-compatible water network solver. | ❔ NOASSERTION | Python library | Found | — | — |
 | [akseidel/WpfaksDuctOMatic](https://github.com/akseidel/WpfaksDuctOMatic) | Duct calculator; inactive since 2021. | MIT | Windows (WPF, C#) | Found | — | — |
 | [ashpursglove/Ashs_MEP_Playground](https://github.com/ashpursglove/Ashs_MEP_Playground) | Piping hydraulics diagrams and electrical single-line drawings. | ⛔ none | Web (TypeScript) | Found | — | — |
@@ -103,7 +103,7 @@ No entries yet. Suggest one by pull request or in [Discussions](../../discussion
 
 | Tool | What it does | License | Platform | Tier | Tested by / date | Details |
 | --- | --- | --- | --- | --- | --- | --- |
-| [mozman/ezdxf](https://github.com/mozman/ezdxf) | Read and write DXF files. | MIT | Python library | Found | — | — |
+| [mozman/ezdxf](https://github.com/mozman/ezdxf) | Read and write DXF files. | MIT | Python library | Tried | HusseinRagab / 15.11.2026 | [ezdxf](entries/ezdxf.md) |
 | [stevenkfirth/xgbxml](https://github.com/stevenkfirth/xgbxml) | Create and edit gbXML. | MIT | Python library | Found | — | — |
 | [storytold/cadcraft](https://github.com/storytold/cadcraft) | Clean-room 2D/3D CAD for DXF and DWG, with CLI and MCP access. | Apache-2.0 | Desktop/CLI (Rust) | Found | — | — |
 | [lookup-foundation/RevitLookup](https://github.com/lookup-foundation/RevitLookup) | Revit API explorer for elements and parameters. | MIT | Revit add-in (C#) | Found | — | — |

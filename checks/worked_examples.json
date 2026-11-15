@@ -1,0 +1,19 @@
+{
+  "_readme": "Enter values from your own copy of each source. Leave null to skip. Do not paste tables into the repo: the entry cites document, edition and table/example only.",
+  "psychrolib": {
+    "source": "ASHRAE Handbook - Fundamentals, <edition>, Chapter 1, Example <#>",
+    "inputs":   {"tdb_C": null, "twb_C": null, "p_Pa": null},
+    "expected": {"W_kg_per_kg": null, "h_kJ_per_kg": null, "tdp_C": null, "rh_pct": null, "v_m3_per_kg": null},
+    "limits":   {"W_kg_per_kg": 0.0001, "h_kJ_per_kg": 0.1, "tdp_C": 0.1, "rh_pct": 0.5, "v_m3_per_kg": 0.001},
+    "_limits_note": "Limits are half a unit of the last digit printed in the example; adjust to the digits your copy prints."
+  },
+  "pyfluids": {
+    "source": "IAPWS R6-95(2018), table of single-phase verification values (free at iapws.org)",
+    "_note": "One object per (T, rho) row. Fill only the columns the table prints: p_MPa, cv_kJ_kgK, cp_kJ_kgK, w_m_s, s_kJ_kgK.",
+    "points": [
+      {"T_K": null, "rho_kg_m3": null, "p_MPa": null, "cv_kJ_kgK": null, "w_m_s": null, "s_kJ_kgK": null},
+      {"T_K": null, "rho_kg_m3": null, "p_MPa": null, "cv_kJ_kgK": null, "w_m_s": null, "s_kJ_kgK": null},
+      {"T_K": null, "rho_kg_m3": null, "p_MPa": null, "cv_kJ_kgK": null, "w_m_s": null, "s_kJ_kgK": null}
+    ]
+  }
+}
