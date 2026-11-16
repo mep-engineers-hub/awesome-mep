@@ -16,9 +16,9 @@ This is not a broad AEC directory. For that, see [Awesome AECO](https://github.c
 
 "Validated" means one worked example was reproduced. It **never** means code-compliant, certified or approved for design. See [TIERS.md](TIERS.md).
 
-License flags: ⚠ GPL/AGPL (copyleft, check before commercial use) · ⛔ no license (do not reuse code) · ❔ NOASSERTION (GitHub cannot classify the license; open the LICENSE file before reuse).
+License flags: ⚠ copyleft: GPL, AGPL, LGPL or MPL (the cell names which; check before commercial use) · 🔒 custom, source-available or non-OSI license (read the terms before any reuse) · ⛔ no license (do not reuse code) · ❔ NOASSERTION or non-standard license text (open the LICENSE file before reuse).
 
-Seed entries (15.11.2026) are tier Found: listed from public information, licenses read from GitHub on that date. Nobody here has run them yet. Platform is the host app or the repo's main language as GitHub reports it.
+Seed entries (15.11.2026 and 16.11.2026) are tier Found: listed from public information, licenses read from each repo on those dates. Nobody here has run them yet. Platform is the host app or the repo's main language as GitHub reports it.
 
 ## Contents
 
@@ -47,6 +47,9 @@ Each section uses the same table. Full details of each entry (worked example, li
 | [portyanikhin/pyfluids](https://github.com/portyanikhin/pyfluids) | Python wrapper over CoolProp. | MIT | Python library | Tried | HusseinRagab / 15.11.2026 | [pyfluids](entries/pyfluids.md) |
 | [TomLXXVI/python-hvac](https://github.com/TomLXXVI/python-hvac) | HVAC loads (RTS method) plus air, hydronic and refrigeration helpers. | MIT | Python library | Tried | HusseinRagab / 15.11.2026 | [python-hvac](entries/python-hvac.md) |
 | [simeononsecurity/Manual-J-Load-Calculator](https://github.com/simeononsecurity/Manual-J-Load-Calculator) | Residential load calculator (Manual J method). | MIT | Web (JavaScript) | Found | — | — |
+| [azogue/psychrochart](https://github.com/azogue/psychrochart) | Draws psychrometric charts with overlays of points, lines and zones. | MIT | Python library | Found | — | — |
+| [pythermalcomfort/pythermalcomfort](https://github.com/pythermalcomfort/pythermalcomfort) | Thermal comfort indices, including PMV/PPD and adaptive models. | MIT | Python library | Found | — | — |
+| [LBNL-ETA/EnergyPlus-MCP](https://github.com/LBNL-ETA/EnergyPlus-MCP) | MCP server that lets an AI agent set up and run EnergyPlus models; exploratory. | ❔ BSD-style (LBNL License.txt) | MCP server (Python) | Found | — | — |
 
 ## Duct and pipe sizing
 
@@ -56,6 +59,9 @@ Each section uses the same table. Full details of each entry (worked example, li
 | [USEPA/WNTR](https://github.com/USEPA/WNTR) | EPANET-compatible water network solver. | ❔ NOASSERTION | Python library | Found | — | — |
 | [akseidel/WpfaksDuctOMatic](https://github.com/akseidel/WpfaksDuctOMatic) | Duct calculator; inactive since 2021. | MIT | Windows (WPF, C#) | Found | — | — |
 | [ashpursglove/Ashs_MEP_Playground](https://github.com/ashpursglove/Ashs_MEP_Playground) | Piping hydraulics diagrams and electrical single-line drawings. | ⛔ none | Web (TypeScript) | Found | — | — |
+| [e2nIEE/pandapipes](https://github.com/e2nIEE/pandapipes) | Steady-state solver for looped pipe networks (water, gas, heat). | BSD-3-Clause | Python library | Found | — | — |
+| [wangzhichao-jpg/OpenHydroNet](https://github.com/wangzhichao-jpg/OpenHydroNet) | Hydronic balancing with index-circuit and scenario runs; ships validation and known-limits notes. New repo. | Apache-2.0 | Python/Electron | Found | — | — |
+| [jlillywh/RTHYM-MOC](https://github.com/jlillywh/RTHYM-MOC) | Water-hammer transient analysis by the method of characteristics. Small, new repo. | MIT | Python | Found | — | — |
 
 ## Pumps and fans
 
@@ -77,6 +83,7 @@ Each section uses the same table. Full details of each entry (worked example, li
 | [yeoyong2002-coder/K-Fire-Hydraulic-Solver](https://github.com/yeoyong2002-coder/K-Fire-Hydraulic-Solver) | Sprinkler hydraulics solver (Korean). | ⛔ none | Not stated | Found | — | — |
 | [eliteweblabs/fire-pump-curve-app](https://github.com/eliteweblabs/fire-pump-curve-app) | Fire-pump curve from three rated points. | ⛔ none | Web (JavaScript) | Found | — | — |
 | [jmdreher1-svg/Fire-Pump-Test-Curves](https://github.com/jmdreher1-svg/Fire-Pump-Test-Curves) | Fire-pump test curve plotter (Chart.js). | ⛔ none | Web (HTML) | Found | — | — |
+| [FireDynamics/fdsreader](https://github.com/FireDynamics/fdsreader) | Reads FDS fire-simulation output for post-processing. | ⚠ GPL-3.0 | Python library | Found | — | — |
 
 ## Electrical (links only)
 
@@ -85,6 +92,7 @@ Listed for completeness; not tested by this group.
 | Tool | What it does | License | Platform | Link |
 | --- | --- | --- | --- | --- |
 | [haydenburrows30/qmlElectrical](https://github.com/haydenburrows30/qmlElectrical) | Cable sizing and voltage-drop calculator. | MIT | Desktop (Python, QML) | [GitHub](https://github.com/haydenburrows30/qmlElectrical) |
+| [e2nIEE/pandapower](https://github.com/e2nIEE/pandapower) | Power-system load flow and short-circuit analysis. | BSD-3-Clause | Python library | [GitHub](https://github.com/e2nIEE/pandapower) |
 
 ## Multi-discipline suites
 
@@ -97,7 +105,10 @@ Tools that cover several MEP disciplines in one package.
 
 ## Equipment data
 
-No entries yet. Suggest one by pull request or in [Discussions](../../discussions).
+| Tool | What it does | License | Platform | Tier | Tested by / date | Details |
+| --- | --- | --- | --- | --- | --- | --- |
+| [wangzhichao-jpg/fintube-hx](https://github.com/wangzhichao-jpg/fintube-hx) | Fin-and-tube coil rating with a published measured-data comparison and stated tolerances. Open-core: a paid tier exists. | MIT | Python library | Found | — | — |
+| [wangzhichao-jpg/opencompressor-twin](https://github.com/wangzhichao-jpg/opencompressor-twin) | Compressor performance model with a stated validity range on fitted curves; research preview. | MIT | Python library | Found | — | — |
 
 ## CAD/BIM data exchange
 
@@ -119,6 +130,19 @@ No entries yet. Suggest one by pull request or in [Discussions](../../discussion
 | [gtalarico/pyrevitplus](https://github.com/gtalarico/pyrevitplus) | pyRevit+ helpers, including open-in-Excel; stale. | ⚠ GPL-3.0 | Revit (pyRevit) | Found | — | — |
 | [tillbaum/pytiba](https://github.com/tillbaum/pytiba) | pyRevit PDF export tool. | ⚠ GPL-3.0 | Revit (pyRevit) | Found | — | — |
 | [permpong13/P13](https://github.com/permpong13/P13) | pyRevit helpers for Excel schedules, sheets, parameters and MEP. | ⛔ none | Revit (pyRevit) | Found | — | — |
+| [DomCR/ACadSharp](https://github.com/DomCR/ACadSharp) | Reads and writes DWG (AC1014 to AC1032) and DXF. | MIT | .NET library (C#) | Found | — | — |
+| [monozukuri-ai/ezdwg](https://github.com/monozukuri-ai/ezdwg) | Reads DWG files from Python. Small, new repo. | MIT | Python library (Rust core) | Found | — | — |
+| [aegis1980/cad-to-shapely](https://github.com/aegis1980/cad-to-shapely) | Turns DXF geometry into shapely polygons, for example room outlines. | MIT | Python library | Found | — | — |
+| [mlightcad/cad-viewer](https://github.com/mlightcad/cad-viewer) | Views DWG and DXF drawings in a web browser. | MIT | Web (TypeScript) | Found | — | — |
+| [CEXT-Dan/PyRx](https://github.com/CEXT-Dan/PyRx) | Runs Python inside AutoCAD and compatible CAD hosts. | ⚠ LGPL-3.0 | AutoCAD plug-in (C++) | Found | — | — |
+| [BIM2SIM/bim2sim](https://github.com/BIM2SIM/bim2sim) | Converts IFC models into thermal zones and building-simulation inputs. | ⚠ LGPL-3.0 | Python library | Found | — | — |
+| [chuongmep/OpenMEP](https://github.com/chuongmep/OpenMEP) | Dynamo nodes for MEP elements in Revit. | MIT | Revit (Dynamo, C#) | Found | — | — |
+| [bvn-architecture/RevitBatchProcessor](https://github.com/bvn-architecture/RevitBatchProcessor) | Runs scripted tasks on many Revit files in batch. | ⚠ GPL-3.0 | Revit (Python) | Found | — | — |
+| [CyrilWaechter/pyRevitMEP](https://github.com/CyrilWaechter/pyRevitMEP) | pyRevit tools aimed at MEP modelling. | ⚠ GPL-3.0 | Revit (pyRevit) | Found | — | — |
+| [PerkinsAndWill-IO/sPrint](https://github.com/PerkinsAndWill-IO/sPrint) | Browser extension for batch printing sheets from Autodesk Construction Cloud. | MIT | Chrome extension (TypeScript) | Found | — | — |
+| [DynMEP/YOLOplan](https://github.com/DynMEP/YOLOplan) | Detects and counts symbols on drawings with a YOLO model. | ⚠ AGPL-3.0 | Python | Found | — | — |
+| [permitzip/mutinybim](https://github.com/permitzip/mutinybim) | Browser-based BIM engine with trade add-ons. | Apache-2.0 | Web (TypeScript) | Found | — | — |
+| [OpenAEC-Foundation/ifccad](https://github.com/OpenAEC-Foundation/ifccad) | Drawing profile for IFC5/IFCX; alpha. | ⚠ MPL-2.0 | Rust | Found | — | — |
 
 ## Python libraries
 
@@ -126,6 +150,7 @@ No entries yet. Suggest one by pull request or in [Discussions](../../discussion
 | --- | --- | --- | --- | --- | --- | --- |
 | [CalebBell/ht](https://github.com/CalebBell/ht) | Heat-transfer library, sister to fluids. | MIT | Python library | Found | — | — |
 | [hgrecco/pint](https://github.com/hgrecco/pint) | Units library for SI and inch-pound quantities. | ❔ NOASSERTION | Python library | Found | — | — |
+| [CalebBell/thermo](https://github.com/CalebBell/thermo) | Thermodynamic properties of chemicals and mixtures, sister to fluids and ht. | MIT | Python library | Found | — | — |
 
 ## AI agents and automation
 
@@ -140,6 +165,12 @@ No entries yet. Suggest one by pull request or in [Discussions](../../discussion
 | [puran-water/autocad-mcp](https://github.com/puran-water/autocad-mcp) | AutoCAD LT MCP server that dispatches commands through AutoLISP. | MIT | MCP server (Python) | Found | — | — |
 | [U-C4N/Autocad-MCP](https://github.com/U-C4N/Autocad-MCP) | AutoCAD MCP via COM, plus headless DXF work with ezdxf. | MIT | MCP server (Python) | Found | — | — |
 | [shtirlitsDva/cad-mcp](https://github.com/shtirlitsDva/cad-mcp) | In-process MCP for AutoCAD and Revit. | ⛔ none | MCP server (C#) | Found | — | — |
+| [bimwright/rvt-mcp](https://github.com/bimwright/rvt-mcp) | Local MCP server for Revit with a large tool set; README lists Revit 2022 to 2027. | Apache-2.0 | MCP server (C#) | Found | — | — |
+| [bimwright/dwg-mcp](https://github.com/bimwright/dwg-mcp) | AutoCAD MCP server that confirms the target drawing before it writes. | Apache-2.0 | MCP server (C#) | Found | — | — |
+| [id0o0bi/autocad-mcp](https://github.com/id0o0bi/autocad-mcp) | Agent edits of DXF/DWG through ezdxf first. Small, new repo. | MIT | MCP server (Python) | Found | — | — |
+| [QuanZ827/zexus](https://github.com/QuanZ827/zexus) | Revit agent that shows a plan and waits for user confirmation before changing the model; README lists Revit 2022 to 2026. | Apache-2.0 | Revit add-in (C#) | Found | — | — |
+| [hamzaabduljabbar/autoconst-spec-compliance-claude](https://github.com/hamzaabduljabbar/autoconst-spec-compliance-claude) | Checks Revit elements against clauses pulled from a project specification and reports pass or fail. Code is not reusable under its license. | 🔒 custom (source-available) | Python | Found | — | — |
+| [ADN-DevTech/acad-api-skill](https://github.com/ADN-DevTech/acad-api-skill) | Agent skill from Autodesk developer support for writing AutoCAD .NET plug-ins. | MIT | Agent skill (PowerShell) | Found | — | — |
 
 ### General agent and developer tools
 

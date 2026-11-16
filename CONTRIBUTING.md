@@ -10,7 +10,7 @@ The organization-wide rules in the [.github CONTRIBUTING](https://github.com/mep
 2. Copy [ENTRY_TEMPLATE.md](ENTRY_TEMPLATE.md) to `entries/<tool-name>.md` and fill it in.
 3. Add one row to the right section of [README.md](README.md), alphabetical order.
 4. Set the tier honestly (see [TIERS.md](TIERS.md)). Without test evidence, it is **Found**.
-5. Flag the license: ⚠ for GPL/AGPL, ⛔ for no license.
+5. Flag the license: ⚠ for copyleft (GPL, AGPL, LGPL, MPL), 🔒 for custom or source-available, ⛔ for no license.
 6. Open a pull request. One member reviews; the maintainer merges.
 
 ## Promote a tier
